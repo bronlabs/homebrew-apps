@@ -1,27 +1,27 @@
 class Bron < Formula
   desc "Public CLI for the Bron API (https://bron.org)"
   homepage "https://github.com/bronlabs/bron-cli"
-  version "0.3.5"
+  version "0.3.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.5/bron-darwin-arm64"
-      sha256 "f9a7f9be2812bba90ff9028998a15a08b347b4aec744ab9a72dba59dedf16898"
+      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.6/bron-darwin-arm64"
+      sha256 "e2a1a297c31c0873300c3f3e206fd27ef11d2808843a1d25d7398eb5ae4a1b32"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.5/bron-darwin-amd64"
-      sha256 "04a4260ddd0e26527a1c76680acf43e3a31fe903081882e9d05c36da6d484dfe"
+      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.6/bron-darwin-amd64"
+      sha256 "709162138ecf83293dba70e86fd0efd8fed502517668168355c9d658701925f1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.5/bron-linux-arm64"
-      sha256 "fa9aa85b880fda248e7163dd39e1b83daca05cfdfe4b8be2f548832bb918b3d4"
+      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.6/bron-linux-arm64"
+      sha256 "1f29ee2e90b23a722086fbb166f4ca5323950cc18df79269fddf23d736644565"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.5/bron-linux-amd64"
-      sha256 "8f735e2736726af107f53bb33f0535faf2476fc8441bf67e59c9fd25dd9a3f78"
+      url "https://github.com/bronlabs/bron-cli/releases/download/v0.3.6/bron-linux-amd64"
+      sha256 "7eed3f6632a472a3c0b743e665891ada3d742deab713d7c9c3412081652b5a47"
     end
   end
 
